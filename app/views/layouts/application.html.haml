@@ -1,0 +1,63 @@
+!!!
+%html
+  %head
+    %title Wishlist
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+
+    %link{:href => "http://fonts.googleapis.com/css?family=Numans", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "http://fonts.googleapis.com/css?family=Sacramento", :rel => "stylesheet", :type => "text/css"}
+  %body
+    .new_item_container
+      .show-hide
+        Gathering Information
+        .loader
+    .mask
+    -if current_user
+      .user_dashboard
+        =render "shared/dashboard"
+    .container{ class: current_user ? "" : "full" }
+      %header
+        .logo
+          =link_to "fulfilist", root_url
+      -if user_signed_in?
+        .open_dash
+          =image_tag "arrow-2.png"
+      -else
+        =link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook), class: "signin"
+        
+        / or
+        /         #login_form
+        /           .form_title
+        /             Login
+        /           = form_tag session_path(:user) do
+        /             %p
+        /               = text_field_tag 'user[username]', nil, placeholder: "Username"
+        /             %p
+        /               = password_field_tag 'user[password]', nil, placeholder: "Password"
+        /             %p
+        /               = check_box_tag 'user[remember_me]'
+        /               = label_tag 'user[remember_me]', 'Remember me'
+        /             %p
+        /               = submit_tag "Login"
+        / 
+        /         #register_form
+        /           .form_title
+        /             Register
+        /           = form_tag registration_path(:user) do
+        /             %p
+        /               = text_field_tag 'user[username]', nil, placeholder: "Username"
+        /             %p
+        /               = email_field_tag 'user[email]', nil, placeholder: "Email"
+        /             %p
+        /               = password_field_tag 'user[password]', nil, placeholder: "Password"
+        /             %p
+        /               = password_field_tag 'user[password_confirmation]', nil, placeholder: "Password Confirmation"
+        /             %p
+        /               = submit_tag "Register"
+      %p.notice= notice
+      %p.alert= alert
+      = yield
+
+

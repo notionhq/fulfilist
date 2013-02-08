@@ -1,0 +1,19 @@
+<% if @item.name.blank? %>
+  $(".edit_item").remove();
+  $("#new_item_link").show();
+  var id = <%= @item.list.id %>;
+  var num = parseInt($("#list_" + id + ".list").find(".count").text());
+  $("#list_" + id + ".list").find(".count").text( num + 1);
+<% else %>
+  $(".edit_item").remove();
+  $("#new_item_link").show();
+  $(".items").prepend('<%= j render(@item) %>');
+  var id = <%= @item.list.id %>;
+  var num = parseInt($("#list_" + id + ".list").find(".count").text());
+  $("#list_" + id + ".list").find(".count").text( num + 1);
+<% end %>
+
+$(".new_item_container").removeClass("pop_out");
+$(".mask").fadeOut();
+
+

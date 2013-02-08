@@ -1,0 +1,23 @@
+if( $(".no_list").length > 0 ) {
+  // on the index page
+  $("#new_list").remove();
+  $(".lists").prepend('<%= j render(@list) %>');
+  $("#new_list_link").show();
+  $("p.instructions").remove();
+  $(".header-text").text("Your Wishlists:");
+  $("img.no-list").remove();
+  $(".index_lists").show();
+  $(".index_lists").prepend('<%= j render(:partial => 'lists/index_list', :locals => {:list => @list}) %>');
+} else{
+  // on the sidebar
+  $("#new_list").remove();
+  $(".lists").prepend('<%= j render(@list) %>');
+  $("p.instructions").remove();
+  $(".header-text").text("Your Wishlists:");
+  $("img.no-list").remove();
+  $(".index_lists").show();
+  $(".index_lists").prepend('<%= j render(:partial => 'lists/index_list', :locals => {:list => @list}) %>');
+  $("#new_list_link").show();
+}
+
+

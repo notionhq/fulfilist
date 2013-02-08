@@ -1,0 +1,5 @@
+=form_for [current_user, @item], remote: :true do |f|
+  =f.label "copy/paste url:"
+  .url_bar
+    =f.text_field :url, class: "new_url"
+    =f.submit "Find", class "button"

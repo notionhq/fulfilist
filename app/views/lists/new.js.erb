@@ -1,0 +1,14 @@
+if( $("#new-list-index").length > 0 && ($(".mask").attr("style") === "display: none;") || $(".mask").attr("style") === undefined ){
+  // one the index page
+  $("p.instructions").hide().after('<%= j render("lists/ajax_new_form") %>');
+  
+} else if($("#new-list-index").length > 0 && $(".mask").attr("style") === "display: block;"){
+  // on the sidebar
+  
+  $("#new_list_link").hide().after('<%= j render("lists/ajax_new_form") %>');
+    
+} else{
+  $("#new_list_link").hide().after('<%= j render("lists/ajax_new_form") %>');
+}
+$("#new-list-field").focus();
+

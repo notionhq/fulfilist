@@ -1,0 +1,47 @@
+.item{ id: "item_#{item.id}", class: item.claimed ? "claimed" : "" }
+  .actions
+    -if current_user
+      -if item.claimed?
+        -if item.claimed_by == current_user.id
+          .claim.unclaim_button
+            .check-mark
+            =button_to "", user_list_item_unclaim_path(item.list, current_user, item), remote: true
+            .message
+              undo
+        -claimer =item.claimed_by_user.username
+        -if claimer == current_user.username
+          %span.claimed-by
+            you claimed this
+        -else
+          -if item.list.user == current_user
+            %span.claimed-by
+              item has been claimed
+          -else
+            %span.claimed-by
+              =claimer
+              claimed this
+      -unless item.claimed?
+        .claim.claim_button
+          .check-mark
+          =button_to "", user_list_item_claim_path(item.list, current_user, item), remote: true
+          .message
+            fulfill item
+    -else
+      .claim.sign_up
+        .check-mark
+        =link_to "sign in to fulfill this item", user_omniauth_authorize_path(:facebook), class: "fb-sign-in"
+        .message
+          click to login
+  .image
+    -if item.product_image.url != "/product_images/original/missing.png"
+      =image_tag item.product_image.url(:medium)
+    -else
+      =image_tag item.img_url
+  .info
+    -if can? :destroy, item
+      =link_to "X remove", [item.list, item], method: :delete, data: {confirm: "Are you sure?"}, remote: true, class: "remove-item"
+    .title
+      =link_to item.name, item.url, target: "blank"
+    .price
+      =number_to_currency item.price
+      

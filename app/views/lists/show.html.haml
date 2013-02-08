@@ -1,0 +1,31 @@
+-session[:return_to] = request.fullpath
+.inner_wrapper
+
+  .list_container
+    %h1.list-header=@list.name
+
+    -if @list.user == current_user
+      .owner This is your wishlist
+  
+    -else
+      .owner
+        =image_tag @list.user.image_url
+        .name="#{@list.user.username}'s wishlist".html_safe
+
+    .close
+      =link_to "X", root_path
+    -if @list.user == current_user
+      .delete_list
+        =link_to "Delete List", @list, method: :delete, data: {confirm: "Are you sure you would like to permanently delete this list?"}, class: "remove-list"
+      .add_item
+        =link_to "+ Add an Item", new_user_list_item_path(current_user, @list), id: "new_item_link", class: "button", remote: true
+    
+    .items
+      -if @list.items.any?
+        =render @items
+    %h2.unavail{style: "display:none;"} Fulfilled  
+    .unavailable_items{style: "display:none;"}
+    -if @claimed_items.any?
+      %h2.unavail Fulfilled  
+      .unavailable_items
+        =render @claimed_items

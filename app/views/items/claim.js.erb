@@ -1,0 +1,10 @@
+var item = $("#item_<%= @item.id %>.item");
+item.addClass("claimed");
+$("#item_<%= @item.id %>.item form").after("<span class='claimed-by'>you claimed this</span>");
+$("#item_<%= @item.id %>.item .message").hide();
+$("#item_<%= @item.id %>.item form").remove();
+item.remove();
+$("h2.unavail").show();
+$(".unavailable_items").show();
+
+$(".unavailable_items").prepend("<%= j render(@item) %>");

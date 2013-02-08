@@ -1,0 +1,7 @@
+var item = $("#item_<%= @item.id %>.item");
+item.removeClass("claimed");
+$("#item_<%= @item.id %>.item form").after("<span class='claimed-by'></span>");
+$("#item_<%= @item.id %>.item .message").hide();
+$("#item_<%= @item.id %>.item form").remove();
+item.remove();
+$(".items").prepend("<%= j render(@item) %>");

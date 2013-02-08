@@ -1,0 +1,16 @@
+.inner_dash
+  .user_name
+    =image_tag current_user.image_url
+    ="#{current_user.first_name} #{current_user.last_name}"
+  .add_list
+    =link_to "+ New List", new_user_list_path(current_user), id: "new_list_link", class: "button small", remote: true
+  .list-title
+    My Wishlists:
+  .lists
+    -current_user.lists.reverse.each do |list|
+      =render "lists/list", list: list
+  .close_dash
+    X
+    / =image_tag "arrow-1.png"
+  .logout
+    =link_to 'logout', destroy_user_session_path, method: :delete

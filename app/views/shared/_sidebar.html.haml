@@ -1,0 +1,10 @@
+-if current_user
+  .name
+    =link_to current_user.username, current_user
+  .list-title
+    My Wishlists
+  .lists
+    -current_user.lists.reverse.each do |list|
+      =render "lists/list", list: list
+  .add_list
+    =link_to "+ New List", new_user_list_path(current_user), id: "new_list_link", remote: true

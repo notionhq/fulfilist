@@ -1,0 +1,10 @@
+=form_for [List.find(params[:list_id]), @item], remote: :true do |f|
+  .form_instructions
+    %strong
+      Step 1: 
+    copy/paste the url for the item that you would like to add
+  .url_bar
+    =f.text_field :url, class: "new_url"
+  .actions
+    =link_to "cancel", "#", class: "dismiss-url button cancel small"
+    =f.submit "Go!", id: "find-new-item-submit", class: "button small"

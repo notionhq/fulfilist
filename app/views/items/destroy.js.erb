@@ -1,0 +1,10 @@
+$("#item_<%= @item.id %>.item").remove();
+$(".edit_item").remove();
+$("#new_item_link").show();
+$(".items").css("margin-top", "0px");
+$(".new_item_container").removeClass("pop_out");
+$(".mask").fadeOut();
+
+var id = <%= @item.list.id %>;
+var num = parseInt($("#list_" + id + ".list").find(".count").text());
+$("#list_" + id + ".list").find(".count").text( num - 1);

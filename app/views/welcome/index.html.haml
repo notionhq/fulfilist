@@ -1,0 +1,19 @@
+-if current_user
+  .header-text
+    -if current_user.lists.any?
+      Your Wishlists:
+    -else
+      You don't yet have any wishlists yet...
+  .list_container.index
+    -if current_user.lists.any?
+      .index_lists
+        -for list in current_user.lists
+          =render partial: "lists/index_list", locals: { list: list }
+    -else
+      .no_list
+        %p.instructions="Why don't you #{link_to 'create one?', new_user_list_path(current_user), remote: :true, id: 'new-list-index'}".html_safe
+        =image_tag "no-lists.png", class: "no-list"
+      .index_lists{style: "display:none;"}
+      
+-else
+

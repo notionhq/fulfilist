@@ -1,0 +1,16 @@
+<div class="user-sign-up">
+  <h2 class="password-message">Almost Done! Please choose a password to complete the sign up process.</h2>
+
+  <%= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+    <%= devise_error_messages! %>
+    <div class='field'><%= f.label :email %><%= f.email_field :email, :autofocus => true %></div>
+
+    <div class='field'><%= f.label :password %><%= f.password_field :password %></div>
+
+    <div class='field'><%= f.label :password_confirmation %><%= f.password_field :password_confirmation %></div>
+
+    <div><%= f.submit "Sign up", class: "button sign-up" %></div>
+  <% end %>
+
+  <!-- <%= render "devise/shared/links" %> -->
+</div>

@@ -1,0 +1,947 @@
+# Logfile created on 2012-12-11 16:11:42 -0800 by logger.rb/31641
+[12/11/12 16:11:42 -0800 Dedalus.local (13526)] INFO : Dispatcher: webrick
+[12/11/12 16:11:42 -0800 Dedalus.local (13526)] INFO : Application: development
+[12/11/12 16:11:42 -0800 Dedalus.local (13526)] WARN : No license key found in newrelic.yml config.
+[12/11/12 16:11:42 -0800 Dedalus.local (13526)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 13526
+[12/11/12 16:11:42 -0800 Dedalus.local (13526)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/11/12 16:22:27 -0800 Dedalus.local (13765)] INFO : Dispatcher: webrick
+[12/11/12 16:22:27 -0800 Dedalus.local (13765)] INFO : Application: development
+[12/11/12 16:22:27 -0800 Dedalus.local (13765)] WARN : No license key found in newrelic.yml config.
+[12/11/12 16:22:27 -0800 Dedalus.local (13765)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 13765
+[12/11/12 16:22:27 -0800 Dedalus.local (13765)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/11/12 16:34:53 -0800 Dedalus.local (13995)] INFO : Dispatcher: webrick
+[12/11/12 16:34:53 -0800 Dedalus.local (13995)] INFO : Application: development
+[12/11/12 16:34:53 -0800 Dedalus.local (13995)] WARN : No license key found in newrelic.yml config.
+[12/11/12 16:34:53 -0800 Dedalus.local (13995)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 13995
+[12/11/12 16:34:53 -0800 Dedalus.local (13995)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/11/12 16:37:30 -0800 Dedalus.local (14018)] INFO : Dispatcher: webrick
+[12/11/12 16:37:30 -0800 Dedalus.local (14018)] INFO : Application: development
+[12/11/12 16:37:30 -0800 Dedalus.local (14018)] WARN : No license key found in newrelic.yml config.
+[12/11/12 16:37:30 -0800 Dedalus.local (14018)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 14018
+[12/11/12 16:37:30 -0800 Dedalus.local (14018)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/12/12 12:05:22 -0800 Dedalus.local (16911)] INFO : Dispatcher: webrick
+[12/12/12 12:05:22 -0800 Dedalus.local (16911)] INFO : Application: development
+[12/12/12 12:05:22 -0800 Dedalus.local (16911)] WARN : No license key found in newrelic.yml config.
+[12/12/12 12:05:22 -0800 Dedalus.local (16911)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 16911
+[12/12/12 12:05:22 -0800 Dedalus.local (16911)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/12/12 15:57:30 -0800 Dedalus.local (18820)] INFO : Dispatcher: webrick
+[12/12/12 15:57:30 -0800 Dedalus.local (18820)] INFO : Application: development
+[12/12/12 15:57:30 -0800 Dedalus.local (18820)] WARN : No license key found in newrelic.yml config.
+[12/12/12 15:57:30 -0800 Dedalus.local (18820)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 18820
+[12/12/12 15:57:30 -0800 Dedalus.local (18820)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/12/12 16:24:01 -0800 Dedalus.local (18820)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find Item without an ID
+[12/12/12 16:24:52 -0800 Dedalus.local (19321)] INFO : Dispatcher: webrick
+[12/12/12 16:24:52 -0800 Dedalus.local (19321)] INFO : Application: development
+[12/12/12 16:24:52 -0800 Dedalus.local (19321)] WARN : No license key found in newrelic.yml config.
+[12/12/12 16:24:52 -0800 Dedalus.local (19321)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 19321
+[12/12/12 16:24:52 -0800 Dedalus.local (19321)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/12/12 16:48:46 -0800 Dedalus.local (19321)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `update_with_info_url' for #<ItemsController:0x007fa5ff10b4c0>
+[12/12/12 16:49:24 -0800 Dedalus.local (19321)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `user_item_update_with_info' for #<ItemsController:0x007fa5fdecacc0>
+[12/12/12 16:49:24 -0800 Dedalus.local (19321)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined local variable or method `user_item_update_with_info' for #<ItemsController:0x007fa5fdecacc0>
+[12/12/12 16:52:21 -0800 Dedalus.local (19321)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Can't mass-assign protected attributes: img
+[12/12/12 16:52:21 -0800 Dedalus.local (19321)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Can't mass-assign protected attributes: img
+[12/12/12 16:53:10 -0800 Dedalus.local (19321)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Can't mass-assign protected attributes: img
+[12/12/12 16:53:10 -0800 Dedalus.local (19321)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Can't mass-assign protected attributes: img
+[12/12/12 16:53:21 -0800 Dedalus.local (19514)] INFO : Dispatcher: webrick
+[12/12/12 16:53:21 -0800 Dedalus.local (19514)] INFO : Application: development
+[12/12/12 16:53:21 -0800 Dedalus.local (19514)] WARN : No license key found in newrelic.yml config.
+[12/12/12 16:53:21 -0800 Dedalus.local (19514)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 19514
+[12/12/12 16:53:21 -0800 Dedalus.local (19514)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/12/12 17:05:39 -0800 Dedalus.local (19591)] INFO : Dispatcher: webrick
+[12/12/12 17:05:39 -0800 Dedalus.local (19591)] INFO : Application: development
+[12/12/12 17:05:39 -0800 Dedalus.local (19591)] WARN : No license key found in newrelic.yml config.
+[12/12/12 17:05:39 -0800 Dedalus.local (19591)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 19591
+[12/12/12 17:05:39 -0800 Dedalus.local (19591)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/12/12 18:12:19 -0800 Dedalus.local (19879)] INFO : Dispatcher: webrick
+[12/12/12 18:12:19 -0800 Dedalus.local (19879)] INFO : Application: development
+[12/12/12 18:12:19 -0800 Dedalus.local (19879)] WARN : No license key found in newrelic.yml config.
+[12/12/12 18:12:19 -0800 Dedalus.local (19879)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 19879
+[12/12/12 18:12:19 -0800 Dedalus.local (19879)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 11:21:31 -0800 Dedalus.local (21380)] INFO : Dispatcher: webrick
+[12/13/12 11:21:31 -0800 Dedalus.local (21380)] INFO : Application: development
+[12/13/12 11:21:31 -0800 Dedalus.local (21380)] WARN : No license key found in newrelic.yml config.
+[12/13/12 11:21:31 -0800 Dedalus.local (21380)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 21380
+[12/13/12 11:21:31 -0800 Dedalus.local (21380)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 13:05:33 -0800 Dedalus.local (22271)] INFO : Dispatcher: webrick
+[12/13/12 13:05:33 -0800 Dedalus.local (22271)] INFO : Application: development
+[12/13/12 13:05:33 -0800 Dedalus.local (22271)] WARN : No license key found in newrelic.yml config.
+[12/13/12 13:05:33 -0800 Dedalus.local (22271)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 22271
+[12/13/12 13:05:33 -0800 Dedalus.local (22271)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 13:14:53 -0800 Dedalus.local (22344)] INFO : Dispatcher: webrick
+[12/13/12 13:14:53 -0800 Dedalus.local (22344)] INFO : Application: development
+[12/13/12 13:14:53 -0800 Dedalus.local (22344)] WARN : No license key found in newrelic.yml config.
+[12/13/12 13:14:53 -0800 Dedalus.local (22344)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 22344
+[12/13/12 13:14:53 -0800 Dedalus.local (22344)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 13:52:54 -0800 Dedalus.local (22480)] INFO : Dispatcher: webrick
+[12/13/12 13:52:54 -0800 Dedalus.local (22480)] INFO : Application: development
+[12/13/12 13:52:54 -0800 Dedalus.local (22480)] WARN : No license key found in newrelic.yml config.
+[12/13/12 13:52:54 -0800 Dedalus.local (22480)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 22480
+[12/13/12 13:52:54 -0800 Dedalus.local (22480)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 14:13:22 -0800 Dedalus.local (22588)] INFO : Dispatcher: webrick
+[12/13/12 14:13:22 -0800 Dedalus.local (22588)] INFO : Application: development
+[12/13/12 14:13:22 -0800 Dedalus.local (22588)] WARN : No license key found in newrelic.yml config.
+[12/13/12 14:13:22 -0800 Dedalus.local (22588)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 22588
+[12/13/12 14:13:22 -0800 Dedalus.local (22588)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 14:14:52 -0800 Dedalus.local (22603)] INFO : Dispatcher: webrick
+[12/13/12 14:14:52 -0800 Dedalus.local (22603)] INFO : Application: development
+[12/13/12 14:14:52 -0800 Dedalus.local (22603)] WARN : No license key found in newrelic.yml config.
+[12/13/12 14:14:52 -0800 Dedalus.local (22603)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 22603
+[12/13/12 14:14:52 -0800 Dedalus.local (22603)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 14:15:50 -0800 Dedalus.local (22615)] INFO : Dispatcher: webrick
+[12/13/12 14:15:50 -0800 Dedalus.local (22615)] INFO : Application: development
+[12/13/12 14:15:50 -0800 Dedalus.local (22615)] WARN : No license key found in newrelic.yml config.
+[12/13/12 14:15:50 -0800 Dedalus.local (22615)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 22615
+[12/13/12 14:15:50 -0800 Dedalus.local (22615)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 15:09:08 -0800 Dedalus.local (23178)] INFO : Dispatcher: webrick
+[12/13/12 15:09:08 -0800 Dedalus.local (23178)] INFO : Application: development
+[12/13/12 15:09:08 -0800 Dedalus.local (23178)] WARN : No license key found in newrelic.yml config.
+[12/13/12 15:09:08 -0800 Dedalus.local (23178)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 23178
+[12/13/12 15:09:08 -0800 Dedalus.local (23178)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 15:26:37 -0800 Dedalus.local (23462)] INFO : Dispatcher: webrick
+[12/13/12 15:26:37 -0800 Dedalus.local (23462)] INFO : Application: development
+[12/13/12 15:26:37 -0800 Dedalus.local (23462)] WARN : No license key found in newrelic.yml config.
+[12/13/12 15:26:37 -0800 Dedalus.local (23462)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 23462
+[12/13/12 15:26:37 -0800 Dedalus.local (23462)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 15:29:54 -0800 Dedalus.local (23488)] INFO : Dispatcher: webrick
+[12/13/12 15:29:54 -0800 Dedalus.local (23488)] INFO : Application: development
+[12/13/12 15:29:54 -0800 Dedalus.local (23488)] WARN : No license key found in newrelic.yml config.
+[12/13/12 15:29:54 -0800 Dedalus.local (23488)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 23488
+[12/13/12 15:29:54 -0800 Dedalus.local (23488)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 15:36:48 -0800 Dedalus.local (23536)] INFO : Dispatcher: webrick
+[12/13/12 15:36:48 -0800 Dedalus.local (23536)] INFO : Application: development
+[12/13/12 15:36:48 -0800 Dedalus.local (23536)] WARN : No license key found in newrelic.yml config.
+[12/13/12 15:36:48 -0800 Dedalus.local (23536)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 23536
+[12/13/12 15:36:48 -0800 Dedalus.local (23536)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 16:32:02 -0800 Dedalus.local (24011)] INFO : Dispatcher: webrick
+[12/13/12 16:32:02 -0800 Dedalus.local (24011)] INFO : Application: development
+[12/13/12 16:32:02 -0800 Dedalus.local (24011)] WARN : No license key found in newrelic.yml config.
+[12/13/12 16:32:02 -0800 Dedalus.local (24011)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 24011
+[12/13/12 16:32:02 -0800 Dedalus.local (24011)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 16:38:11 -0800 Dedalus.local (24051)] INFO : Dispatcher: webrick
+[12/13/12 16:38:11 -0800 Dedalus.local (24051)] INFO : Application: development
+[12/13/12 16:38:11 -0800 Dedalus.local (24051)] WARN : No license key found in newrelic.yml config.
+[12/13/12 16:38:11 -0800 Dedalus.local (24051)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 24051
+[12/13/12 16:38:11 -0800 Dedalus.local (24051)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/13/12 20:32:32 -0800 Dedalus.local (24801)] INFO : Dispatcher: webrick
+[12/13/12 20:32:32 -0800 Dedalus.local (24801)] INFO : Application: development
+[12/13/12 20:32:32 -0800 Dedalus.local (24801)] WARN : No license key found in newrelic.yml config.
+[12/13/12 20:32:32 -0800 Dedalus.local (24801)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 24801
+[12/13/12 20:32:32 -0800 Dedalus.local (24801)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 11:05:13 -0800 Dedalus.local (26051)] INFO : Dispatcher: webrick
+[12/14/12 11:05:13 -0800 Dedalus.local (26051)] INFO : Application: development
+[12/14/12 11:05:13 -0800 Dedalus.local (26051)] WARN : No license key found in newrelic.yml config.
+[12/14/12 11:05:13 -0800 Dedalus.local (26051)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 26051
+[12/14/12 11:05:13 -0800 Dedalus.local (26051)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 11:28:52 -0800 Dedalus.local (26348)] INFO : Dispatcher: webrick
+[12/14/12 11:28:52 -0800 Dedalus.local (26348)] INFO : Application: development
+[12/14/12 11:28:52 -0800 Dedalus.local (26348)] WARN : No license key found in newrelic.yml config.
+[12/14/12 11:28:52 -0800 Dedalus.local (26348)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 26348
+[12/14/12 11:28:52 -0800 Dedalus.local (26348)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 12:35:12 -0800 Dedalus.local (26708)] INFO : Dispatcher: webrick
+[12/14/12 12:35:12 -0800 Dedalus.local (26708)] INFO : Application: development
+[12/14/12 12:35:12 -0800 Dedalus.local (26708)] WARN : No license key found in newrelic.yml config.
+[12/14/12 12:35:12 -0800 Dedalus.local (26708)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 26708
+[12/14/12 12:35:12 -0800 Dedalus.local (26708)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 12:38:42 -0800 Dedalus.local (26897)] INFO : Dispatcher: webrick
+[12/14/12 12:38:42 -0800 Dedalus.local (26897)] INFO : Application: development
+[12/14/12 12:38:42 -0800 Dedalus.local (26897)] WARN : No license key found in newrelic.yml config.
+[12/14/12 12:38:42 -0800 Dedalus.local (26897)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 26897
+[12/14/12 12:38:42 -0800 Dedalus.local (26897)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 12:45:03 -0800 Dedalus.local (26942)] INFO : Dispatcher: webrick
+[12/14/12 12:45:03 -0800 Dedalus.local (26942)] INFO : Application: development
+[12/14/12 12:45:03 -0800 Dedalus.local (26942)] WARN : No license key found in newrelic.yml config.
+[12/14/12 12:45:03 -0800 Dedalus.local (26942)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 26942
+[12/14/12 12:45:03 -0800 Dedalus.local (26942)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 12:52:44 -0800 Dedalus.local (26992)] INFO : Dispatcher: webrick
+[12/14/12 12:52:44 -0800 Dedalus.local (26992)] INFO : Application: development
+[12/14/12 12:52:44 -0800 Dedalus.local (26992)] WARN : No license key found in newrelic.yml config.
+[12/14/12 12:52:44 -0800 Dedalus.local (26992)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 26992
+[12/14/12 12:52:44 -0800 Dedalus.local (26992)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 13:11:53 -0800 Dedalus.local (27115)] INFO : Dispatcher: webrick
+[12/14/12 13:11:53 -0800 Dedalus.local (27115)] INFO : Application: development
+[12/14/12 13:11:53 -0800 Dedalus.local (27115)] WARN : No license key found in newrelic.yml config.
+[12/14/12 13:11:53 -0800 Dedalus.local (27115)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 27115
+[12/14/12 13:11:53 -0800 Dedalus.local (27115)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 13:44:05 -0800 Dedalus.local (27274)] INFO : Dispatcher: webrick
+[12/14/12 13:44:05 -0800 Dedalus.local (27274)] INFO : Application: development
+[12/14/12 13:44:05 -0800 Dedalus.local (27274)] WARN : No license key found in newrelic.yml config.
+[12/14/12 13:44:05 -0800 Dedalus.local (27274)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 27274
+[12/14/12 13:44:05 -0800 Dedalus.local (27274)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 13:45:09 -0800 Dedalus.local (27287)] INFO : Dispatcher: webrick
+[12/14/12 13:45:09 -0800 Dedalus.local (27287)] INFO : Application: development
+[12/14/12 13:45:09 -0800 Dedalus.local (27287)] WARN : No license key found in newrelic.yml config.
+[12/14/12 13:45:09 -0800 Dedalus.local (27287)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 27287
+[12/14/12 13:45:09 -0800 Dedalus.local (27287)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/14/12 15:27:46 -0800 Dedalus.local (28017)] INFO : Dispatcher: webrick
+[12/14/12 15:27:46 -0800 Dedalus.local (28017)] INFO : Application: development
+[12/14/12 15:27:46 -0800 Dedalus.local (28017)] WARN : No license key found in newrelic.yml config.
+[12/14/12 15:27:46 -0800 Dedalus.local (28017)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 28017
+[12/14/12 15:27:46 -0800 Dedalus.local (28017)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/15/12 17:11:36 -0800 Dedalus.local (29319)] INFO : Dispatcher: webrick
+[12/15/12 17:11:36 -0800 Dedalus.local (29319)] INFO : Application: development
+[12/15/12 17:11:36 -0800 Dedalus.local (29319)] WARN : No license key found in newrelic.yml config.
+[12/15/12 17:11:36 -0800 Dedalus.local (29319)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 29319
+[12/15/12 17:11:36 -0800 Dedalus.local (29319)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/15/12 17:31:39 -0800 Dedalus.local (29624)] INFO : Dispatcher: webrick
+[12/15/12 17:31:39 -0800 Dedalus.local (29624)] INFO : Application: development
+[12/15/12 17:31:39 -0800 Dedalus.local (29624)] WARN : No license key found in newrelic.yml config.
+[12/15/12 17:31:39 -0800 Dedalus.local (29624)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 29624
+[12/15/12 17:31:39 -0800 Dedalus.local (29624)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/15/12 17:36:56 -0800 Dedalus.local (29656)] INFO : Dispatcher: webrick
+[12/15/12 17:36:56 -0800 Dedalus.local (29656)] INFO : Application: development
+[12/15/12 17:36:56 -0800 Dedalus.local (29656)] WARN : No license key found in newrelic.yml config.
+[12/15/12 17:36:56 -0800 Dedalus.local (29656)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 29656
+[12/15/12 17:36:56 -0800 Dedalus.local (29656)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/15/12 17:39:28 -0800 Dedalus.local (29675)] INFO : Dispatcher: webrick
+[12/15/12 17:39:28 -0800 Dedalus.local (29675)] INFO : Application: development
+[12/15/12 17:39:28 -0800 Dedalus.local (29675)] WARN : No license key found in newrelic.yml config.
+[12/15/12 17:39:28 -0800 Dedalus.local (29675)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 29675
+[12/15/12 17:39:28 -0800 Dedalus.local (29675)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/15/12 17:45:47 -0800 Dedalus.local (29708)] INFO : Dispatcher: webrick
+[12/15/12 17:45:47 -0800 Dedalus.local (29708)] INFO : Application: development
+[12/15/12 17:45:47 -0800 Dedalus.local (29708)] WARN : No license key found in newrelic.yml config.
+[12/15/12 17:45:47 -0800 Dedalus.local (29708)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 29708
+[12/15/12 17:45:47 -0800 Dedalus.local (29708)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/17/12 13:49:52 -0800 Dedalus.local (35768)] INFO : Dispatcher: webrick
+[12/17/12 13:49:52 -0800 Dedalus.local (35768)] INFO : Application: development
+[12/17/12 13:49:52 -0800 Dedalus.local (35768)] WARN : No license key found in newrelic.yml config.
+[12/17/12 13:49:52 -0800 Dedalus.local (35768)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 35768
+[12/17/12 13:49:52 -0800 Dedalus.local (35768)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/17/12 16:44:27 -0800 Dedalus.local (37636)] INFO : Dispatcher: webrick
+[12/17/12 16:44:27 -0800 Dedalus.local (37636)] INFO : Application: development
+[12/17/12 16:44:27 -0800 Dedalus.local (37636)] WARN : No license key found in newrelic.yml config.
+[12/17/12 16:44:27 -0800 Dedalus.local (37636)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 37636
+[12/17/12 16:44:27 -0800 Dedalus.local (37636)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/17/12 20:42:33 -0800 Dedalus.local (38352)] INFO : Dispatcher: webrick
+[12/17/12 20:42:33 -0800 Dedalus.local (38352)] INFO : Application: development
+[12/17/12 20:42:33 -0800 Dedalus.local (38352)] WARN : No license key found in newrelic.yml config.
+[12/17/12 20:42:33 -0800 Dedalus.local (38352)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 38352
+[12/17/12 20:42:33 -0800 Dedalus.local (38352)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/17/12 21:50:58 -0800 Dedalus.local (39141)] INFO : Dispatcher: webrick
+[12/17/12 21:50:58 -0800 Dedalus.local (39141)] INFO : Application: development
+[12/17/12 21:50:58 -0800 Dedalus.local (39141)] WARN : No license key found in newrelic.yml config.
+[12/17/12 21:50:58 -0800 Dedalus.local (39141)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 39141
+[12/17/12 21:50:58 -0800 Dedalus.local (39141)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/18/12 15:54:14 -0800 Dedalus.local (43864)] INFO : Dispatcher: webrick
+[12/18/12 15:54:14 -0800 Dedalus.local (43864)] INFO : Application: development
+[12/18/12 15:54:14 -0800 Dedalus.local (43864)] WARN : No license key found in newrelic.yml config.
+[12/18/12 15:54:14 -0800 Dedalus.local (43864)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 43864
+[12/18/12 15:54:14 -0800 Dedalus.local (43864)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/18/12 21:29:24 -0800 Dedalus.local (45183)] INFO : Dispatcher: webrick
+[12/18/12 21:29:24 -0800 Dedalus.local (45183)] INFO : Application: development
+[12/18/12 21:29:24 -0800 Dedalus.local (45183)] WARN : No license key found in newrelic.yml config.
+[12/18/12 21:29:24 -0800 Dedalus.local (45183)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 45183
+[12/18/12 21:29:24 -0800 Dedalus.local (45183)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/19/12 10:40:19 -0800 Dedalus.local (47689)] INFO : Dispatcher: webrick
+[12/19/12 10:40:20 -0800 Dedalus.local (47689)] INFO : Application: development
+[12/19/12 10:40:20 -0800 Dedalus.local (47689)] WARN : No license key found in newrelic.yml config.
+[12/19/12 10:40:20 -0800 Dedalus.local (47689)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 47689
+[12/19/12 10:40:20 -0800 Dedalus.local (47689)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/19/12 14:54:02 -0800 Dedalus.local (49864)] INFO : Dispatcher: webrick
+[12/19/12 14:54:02 -0800 Dedalus.local (49864)] INFO : Application: development
+[12/19/12 14:54:02 -0800 Dedalus.local (49864)] WARN : No license key found in newrelic.yml config.
+[12/19/12 14:54:02 -0800 Dedalus.local (49864)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 49864
+[12/19/12 14:54:02 -0800 Dedalus.local (49864)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/19/12 16:16:44 -0800 Dedalus.local (50723)] INFO : Dispatcher: webrick
+[12/19/12 16:16:44 -0800 Dedalus.local (50723)] INFO : Application: development
+[12/19/12 16:16:44 -0800 Dedalus.local (50723)] WARN : No license key found in newrelic.yml config.
+[12/19/12 16:16:44 -0800 Dedalus.local (50723)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 50723
+[12/19/12 16:16:44 -0800 Dedalus.local (50723)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/19/12 16:50:39 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `user_items_path' for #<#<Class:0x007fdb49a7f798>:0x007fdb498f98b0>
+[12/19/12 16:50:52 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `user_items_path' for #<#<Class:0x007fdb49a7f798>:0x007fdb4da6a038>
+[12/19/12 16:50:52 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `user_items_path' for #<#<Class:0x007fdb49a7f798>:0x007fdb4da6a038>
+[12/19/12 16:51:43 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `user_items_path' for #<#<Class:0x007fdb49a7f798>:0x007fdb4c800618>
+[12/19/12 16:51:43 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `user_items_path' for #<#<Class:0x007fdb49a7f798>:0x007fdb4c800618>
+[12/19/12 16:52:28 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `user_items_path' for #<#<Class:0x007fdb49a7f798>:0x007fdb4ea001c8>
+[12/19/12 16:52:28 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `user_items_path' for #<#<Class:0x007fdb49a7f798>:0x007fdb4ea001c8>
+[12/19/12 16:53:22 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `user_items_path' for #<#<Class:0x007fdb516423a8>:0x007fdb51647088>
+[12/19/12 16:53:22 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `user_items_path' for #<#<Class:0x007fdb516423a8>:0x007fdb51647088>
+[12/19/12 16:54:16 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"new", :controller=>"items", :user_id=>#<User id: 4, email: "dcaccavano@gmail.com", encrypted_password: "$2a$10$aCv7EutECyrutlcECA2ff.Mr3bT8iSlM8UZmmoJXiFdU...", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 9, current_sign_in_at: "2012-12-19 05:55:06", last_sign_in_at: "2012-12-19 00:30:35", current_sign_in_ip: "127.0.0.1", last_sign_in_ip: "127.0.0.1", created_at: "2012-12-12 00:33:44", updated_at: "2012-12-19 05:55:06", username: "dcaccavano", uid: "29301438", provider: "facebook">, :list_id=>nil, :format=>#<Item id: nil, name: nil, url: nil, price: nil, store: nil, user_id: nil, created_at: nil, updated_at: nil, img_url: nil, claimed: nil, claimed_by: nil, list_id: nil>}
+[12/19/12 16:54:16 -0800 Dedalus.local (50723)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: No route matches {:action=>"new", :controller=>"items", :user_id=>#<User id: 4, email: "dcaccavano@gmail.com", encrypted_password: "$2a$10$aCv7EutECyrutlcECA2ff.Mr3bT8iSlM8UZmmoJXiFdU...", reset_password_token: nil, reset_password_sent_at: nil, remember_created_at: nil, sign_in_count: 9, current_sign_in_at: "2012-12-19 05:55:06", last_sign_in_at: "2012-12-19 00:30:35", current_sign_in_ip: "127.0.0.1", last_sign_in_ip: "127.0.0.1", created_at: "2012-12-12 00:33:44", updated_at: "2012-12-19 05:55:06", username: "dcaccavano", uid: "29301438", provider: "facebook">, :list_id=>nil, :format=>#<Item id: nil, name: nil, url: nil, price: nil, store: nil, user_id: nil, created_at: nil, updated_at: nil, img_url: nil, claimed: nil, claimed_by: nil, list_id: nil>}
+[12/19/12 16:55:33 -0800 Dedalus.local (50938)] INFO : Dispatcher: webrick
+[12/19/12 16:55:33 -0800 Dedalus.local (50938)] INFO : Application: development
+[12/19/12 16:55:33 -0800 Dedalus.local (50938)] WARN : No license key found in newrelic.yml config.
+[12/19/12 16:55:33 -0800 Dedalus.local (50938)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 50938
+[12/19/12 16:55:33 -0800 Dedalus.local (50938)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/19/12 17:08:27 -0800 Dedalus.local (51162)] INFO : Dispatcher: webrick
+[12/19/12 17:08:27 -0800 Dedalus.local (51162)] INFO : Application: development
+[12/19/12 17:08:27 -0800 Dedalus.local (51162)] WARN : No license key found in newrelic.yml config.
+[12/19/12 17:08:27 -0800 Dedalus.local (51162)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 51162
+[12/19/12 17:08:27 -0800 Dedalus.local (51162)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/19/12 18:49:51 -0800 Dedalus.local (51674)] INFO : Dispatcher: webrick
+[12/19/12 18:49:51 -0800 Dedalus.local (51674)] INFO : Application: development
+[12/19/12 18:49:51 -0800 Dedalus.local (51674)] WARN : No license key found in newrelic.yml config.
+[12/19/12 18:49:51 -0800 Dedalus.local (51674)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 51674
+[12/19/12 18:49:51 -0800 Dedalus.local (51674)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/20/12 10:18:07 -0800 Dedalus.local (53389)] INFO : Dispatcher: webrick
+[12/20/12 10:18:07 -0800 Dedalus.local (53389)] INFO : Application: development
+[12/20/12 10:18:07 -0800 Dedalus.local (53389)] WARN : No license key found in newrelic.yml config.
+[12/20/12 10:18:07 -0800 Dedalus.local (53389)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 53389
+[12/20/12 10:18:07 -0800 Dedalus.local (53389)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/20/12 21:54:50 -0800 Dedalus.local (56324)] INFO : Dispatcher: webrick
+[12/20/12 21:54:50 -0800 Dedalus.local (56324)] INFO : Application: development
+[12/20/12 21:54:50 -0800 Dedalus.local (56324)] WARN : No license key found in newrelic.yml config.
+[12/20/12 21:54:50 -0800 Dedalus.local (56324)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 56324
+[12/20/12 21:54:50 -0800 Dedalus.local (56324)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/21/12 08:30:05 -0800 Dedalus.local (57404)] INFO : Dispatcher: webrick
+[12/21/12 08:30:05 -0800 Dedalus.local (57404)] INFO : Application: development
+[12/21/12 08:30:05 -0800 Dedalus.local (57404)] WARN : No license key found in newrelic.yml config.
+[12/21/12 08:30:05 -0800 Dedalus.local (57404)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 57404
+[12/21/12 08:30:05 -0800 Dedalus.local (57404)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/21/12 11:44:59 -0800 Dedalus.local (58742)] INFO : Dispatcher: webrick
+[12/21/12 11:44:59 -0800 Dedalus.local (58742)] INFO : Application: development
+[12/21/12 11:44:59 -0800 Dedalus.local (58742)] WARN : No license key found in newrelic.yml config.
+[12/21/12 11:44:59 -0800 Dedalus.local (58742)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 58742
+[12/21/12 11:44:59 -0800 Dedalus.local (58742)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/21/12 13:11:11 -0800 Dedalus.local (59488)] INFO : Dispatcher: webrick
+[12/21/12 13:11:11 -0800 Dedalus.local (59488)] INFO : Application: development
+[12/21/12 13:11:11 -0800 Dedalus.local (59488)] WARN : No license key found in newrelic.yml config.
+[12/21/12 13:11:11 -0800 Dedalus.local (59488)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 59488
+[12/21/12 13:11:11 -0800 Dedalus.local (59488)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/21/12 19:09:53 -0800 Dedalus.local (60349)] INFO : Dispatcher: webrick
+[12/21/12 19:09:53 -0800 Dedalus.local (60349)] INFO : Application: development
+[12/21/12 19:09:53 -0800 Dedalus.local (60349)] WARN : No license key found in newrelic.yml config.
+[12/21/12 19:09:53 -0800 Dedalus.local (60349)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 60349
+[12/21/12 19:09:53 -0800 Dedalus.local (60349)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[12/25/12 22:06:43 -0800 Dedalus.local (60874)] INFO : Dispatcher: webrick
+[12/25/12 22:06:43 -0800 Dedalus.local (60874)] INFO : Application: development
+[12/25/12 22:06:43 -0800 Dedalus.local (60874)] WARN : No license key found in newrelic.yml config.
+[12/25/12 22:06:43 -0800 Dedalus.local (60874)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 60874
+[12/25/12 22:06:43 -0800 Dedalus.local (60874)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[01/09/13 17:03:18 -0800 Dedalus.local (73308)] INFO : Dispatcher: webrick
+[01/09/13 17:03:18 -0800 Dedalus.local (73308)] INFO : Application: development
+[01/09/13 17:03:18 -0800 Dedalus.local (73308)] WARN : No license key found in newrelic.yml config.
+[01/09/13 17:03:18 -0800 Dedalus.local (73308)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 73308
+[01/09/13 17:03:18 -0800 Dedalus.local (73308)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[01/11/13 14:10:34 -0800 Dedalus.local (90098)] INFO : Dispatcher: webrick
+[01/11/13 14:10:34 -0800 Dedalus.local (90098)] INFO : Application: development
+[01/11/13 14:10:34 -0800 Dedalus.local (90098)] WARN : No license key found in newrelic.yml config.
+[01/11/13 14:10:34 -0800 Dedalus.local (90098)] INFO : New Relic Ruby Agent 3.5.3 Initialized: pid = 90098
+[01/11/13 14:10:34 -0800 Dedalus.local (90098)] INFO : Agent Log at /Users/dcaccavano/rails_projects/wishlist/log/newrelic_agent.log
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Starting the New Relic Agent.
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Environment: development
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Dispatcher: webrick
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Application: development
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Installing ActiveRecord instrumentation
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Installing Net instrumentation
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Installing Rails 3 Controller instrumentation
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Installing Rails3 Error instrumentation
+[01/12/13 14:20:24 -0800 Dedalus.local (95165)] INFO : Finished instrumentation
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Starting the New Relic Agent.
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Environment: development
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Dispatcher: webrick
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Application: development
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Installing ActiveRecord instrumentation
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Installing Net instrumentation
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Installing Rails 3 Controller instrumentation
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Installing Rails3 Error instrumentation
+[01/13/13 19:31:16 -0800 Dedalus.local (98469)] INFO : Finished instrumentation
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Starting the New Relic Agent.
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Environment: development
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Dispatcher: webrick
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Application: development
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Installing ActiveRecord instrumentation
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Installing Net instrumentation
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Installing Rails 3 Controller instrumentation
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Installing Rails3 Error instrumentation
+[01/14/13 15:42:42 -0800 Dedalus.local (8072)] INFO : Finished instrumentation
+[01/15/13 14:28:14 -0800 Dedalus.local (15286)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/15/13 14:28:14 -0800 Dedalus.local (15286)] INFO : Starting the New Relic Agent.
+[01/15/13 14:28:14 -0800 Dedalus.local (15286)] INFO : Environment: development
+[01/15/13 14:28:14 -0800 Dedalus.local (15286)] INFO : Dispatcher: webrick
+[01/15/13 14:28:14 -0800 Dedalus.local (15286)] INFO : Application: development
+[01/15/13 14:28:14 -0800 Dedalus.local (15286)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/15/13 14:28:15 -0800 Dedalus.local (15286)] INFO : Installing ActiveRecord instrumentation
+[01/15/13 14:28:15 -0800 Dedalus.local (15286)] INFO : Installing Net instrumentation
+[01/15/13 14:28:15 -0800 Dedalus.local (15286)] INFO : Installing Rails 3 Controller instrumentation
+[01/15/13 14:28:15 -0800 Dedalus.local (15286)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/15/13 14:28:15 -0800 Dedalus.local (15286)] INFO : Installing Rails3 Error instrumentation
+[01/15/13 14:28:15 -0800 Dedalus.local (15286)] INFO : Finished instrumentation
+[01/15/13 19:33:57 -0800 Dedalus.local (18365)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/15/13 19:33:57 -0800 Dedalus.local (18365)] INFO : Starting the New Relic Agent.
+[01/15/13 19:33:57 -0800 Dedalus.local (18365)] INFO : Environment: development
+[01/15/13 19:33:57 -0800 Dedalus.local (18365)] INFO : Dispatcher: webrick
+[01/15/13 19:33:57 -0800 Dedalus.local (18365)] INFO : Application: development
+[01/15/13 19:33:57 -0800 Dedalus.local (18365)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/15/13 19:33:58 -0800 Dedalus.local (18365)] INFO : Installing ActiveRecord instrumentation
+[01/15/13 19:33:58 -0800 Dedalus.local (18365)] INFO : Installing Net instrumentation
+[01/15/13 19:33:58 -0800 Dedalus.local (18365)] INFO : Installing Rails 3 Controller instrumentation
+[01/15/13 19:33:58 -0800 Dedalus.local (18365)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/15/13 19:33:58 -0800 Dedalus.local (18365)] INFO : Installing Rails3 Error instrumentation
+[01/15/13 19:33:58 -0800 Dedalus.local (18365)] INFO : Finished instrumentation
+[01/16/13 15:32:20 -0800 Dedalus.local (25416)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/16/13 15:32:20 -0800 Dedalus.local (25416)] INFO : Starting the New Relic Agent.
+[01/16/13 15:32:20 -0800 Dedalus.local (25416)] INFO : Environment: development
+[01/16/13 15:32:20 -0800 Dedalus.local (25416)] INFO : Dispatcher: webrick
+[01/16/13 15:32:20 -0800 Dedalus.local (25416)] INFO : Application: development
+[01/16/13 15:32:20 -0800 Dedalus.local (25416)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/16/13 15:32:21 -0800 Dedalus.local (25416)] INFO : Installing ActiveRecord instrumentation
+[01/16/13 15:32:21 -0800 Dedalus.local (25416)] INFO : Installing Net instrumentation
+[01/16/13 15:32:21 -0800 Dedalus.local (25416)] INFO : Installing Rails 3 Controller instrumentation
+[01/16/13 15:32:21 -0800 Dedalus.local (25416)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/16/13 15:32:21 -0800 Dedalus.local (25416)] INFO : Installing Rails3 Error instrumentation
+[01/16/13 15:32:21 -0800 Dedalus.local (25416)] INFO : Finished instrumentation
+[01/16/13 16:17:39 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find List with id=40
+[01/16/13 16:19:05 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find List with id=51
+[01/16/13 16:19:05 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find List with id=51
+[01/16/13 16:19:20 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find List with id=51
+[01/16/13 16:19:20 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find List with id=51
+[01/16/13 16:19:32 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `current_user' for #<List:0x007f930f66aec8>
+[01/16/13 16:19:32 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `current_user' for #<List:0x007f930f66aec8>
+[01/16/13 16:19:49 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find List with id=52 [WHERE "lists"."user_id" = 4]
+[01/16/13 16:19:49 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: Couldn't find List with id=52 [WHERE "lists"."user_id" = 4]
+[01/16/13 17:27:30 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `username' for "dan.caccavano":String
+[01/16/13 17:27:30 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `username' for "dan.caccavano":String
+[01/16/13 17:31:59 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `text' for nil:NilClass
+[01/16/13 17:31:59 -0800 Dedalus.local (25416)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `text' for nil:NilClass
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Starting the New Relic Agent.
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Environment: development
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Dispatcher: webrick
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Application: development
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Installing ActiveRecord instrumentation
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Installing Net instrumentation
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Installing Rails 3 Controller instrumentation
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Installing Rails3 Error instrumentation
+[01/16/13 18:23:31 -0800 Dedalus.local (28486)] INFO : Finished instrumentation
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Starting the New Relic Agent.
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Environment: development
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Dispatcher: webrick
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Application: development
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Installing ActiveRecord instrumentation
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Installing Net instrumentation
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Installing Rails 3 Controller instrumentation
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Installing Rails3 Error instrumentation
+[01/17/13 09:20:13 -0800 Dedalus.local (30287)] INFO : Finished instrumentation
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Starting the New Relic Agent.
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Environment: development
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Dispatcher: webrick
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Application: development
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Installing ActiveRecord instrumentation
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Installing Net instrumentation
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Installing Rails 3 Controller instrumentation
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Installing Rails3 Error instrumentation
+[01/17/13 11:58:47 -0800 Dedalus.local (32320)] INFO : Finished instrumentation
+[01/18/13 16:15:28 -0800 Dedalus.local (9265)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/18/13 16:15:28 -0800 Dedalus.local (9265)] INFO : Starting the New Relic Agent.
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] INFO : Environment: development
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] INFO : Dispatcher: webrick
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] INFO : Application: development
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] INFO : Installing ActiveRecord instrumentation
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] INFO : Installing Net instrumentation
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] INFO : Installing Rails 3 Controller instrumentation
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] INFO : Installing Rails3 Error instrumentation
+[01/18/13 16:15:29 -0800 Dedalus.local (9265)] INFO : Finished instrumentation
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Starting the New Relic Agent.
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Environment: development
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Dispatcher: webrick
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Application: development
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Installing ActiveRecord instrumentation
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Installing Net instrumentation
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Installing Rails 3 Controller instrumentation
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Installing Rails3 Error instrumentation
+[01/21/13 14:04:21 -0800 Dedalus.local (5357)] INFO : Finished instrumentation
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Starting the New Relic Agent.
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Environment: development
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Dispatcher: webrick
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Application: development
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Installing ActiveRecord instrumentation
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Installing Net instrumentation
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Installing Rails 3 Controller instrumentation
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Installing Rails3 Error instrumentation
+[01/22/13 09:40:00 -0800 Dedalus.local (12905)] INFO : Finished instrumentation
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Starting the New Relic Agent.
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Environment: development
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Dispatcher: webrick
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Application: development
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Installing ActiveRecord instrumentation
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Installing Net instrumentation
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Installing Rails 3 Controller instrumentation
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Installing Rails3 Error instrumentation
+[01/23/13 16:39:00 -0800 Dedalus.local (32246)] INFO : Finished instrumentation
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Starting the New Relic Agent.
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Environment: development
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Dispatcher: webrick
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Application: development
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Installing ActiveRecord instrumentation
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Installing Net instrumentation
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Installing Rails 3 Controller instrumentation
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Installing Rails3 Error instrumentation
+[01/24/13 12:14:50 -0800 Dedalus.local (65457)] INFO : Finished instrumentation
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Starting the New Relic Agent.
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Environment: development
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Dispatcher: webrick
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Application: development
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Installing ActiveRecord instrumentation
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Installing Net instrumentation
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Installing Rails 3 Controller instrumentation
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Installing Rails3 Error instrumentation
+[01/24/13 13:43:34 -0800 Dedalus.local (67661)] INFO : Finished instrumentation
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Starting the New Relic Agent.
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Environment: development
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Dispatcher: webrick
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Application: development
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Installing ActiveRecord instrumentation
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Installing Net instrumentation
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Installing Rails 3 Controller instrumentation
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Installing Rails3 Error instrumentation
+[01/24/13 21:23:03 -0800 Dedalus.local (71265)] INFO : Finished instrumentation
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Starting the New Relic Agent.
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Environment: development
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Dispatcher: webrick
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Application: development
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Installing ActiveRecord instrumentation
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Installing Net instrumentation
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Installing Rails 3 Controller instrumentation
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Installing Rails3 Error instrumentation
+[01/25/13 15:32:25 -0800 Dedalus.local (78970)] INFO : Finished instrumentation
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Starting the New Relic Agent.
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Environment: development
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Dispatcher: webrick
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Application: development
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Installing ActiveRecord instrumentation
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Installing Net instrumentation
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Installing Rails 3 Controller instrumentation
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Installing Rails3 Error instrumentation
+[01/25/13 16:46:49 -0800 Dedalus.local (80415)] INFO : Finished instrumentation
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Starting the New Relic Agent.
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Environment: development
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Dispatcher: webrick
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Application: development
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Installing ActiveRecord instrumentation
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Installing Net instrumentation
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Installing Rails 3 Controller instrumentation
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Installing Rails3 Error instrumentation
+[01/25/13 21:03:03 -0800 Dedalus.local (82314)] INFO : Finished instrumentation
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Starting the New Relic Agent.
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Environment: development
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Dispatcher: webrick
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Application: development
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Installing ActiveRecord instrumentation
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Installing Net instrumentation
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Installing Rails 3 Controller instrumentation
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Installing Rails3 Error instrumentation
+[01/26/13 17:26:40 -0800 Dedalus.local (85837)] INFO : Finished instrumentation
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Starting the New Relic Agent.
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Environment: development
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Dispatcher: webrick
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Application: development
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Installing ActiveRecord instrumentation
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Installing Net instrumentation
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Installing Rails 3 Controller instrumentation
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Installing Rails3 Error instrumentation
+[01/27/13 15:46:17 -0800 Dedalus.local (91683)] INFO : Finished instrumentation
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Starting the New Relic Agent.
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Environment: development
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Dispatcher: webrick
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Application: development
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Installing Net instrumentation
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 13:22:49 -0800 Dedalus.local (2755)] INFO : Finished instrumentation
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Starting the New Relic Agent.
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Environment: development
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Dispatcher: webrick
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Application: development
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Installing Net instrumentation
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 16:53:08 -0800 Dedalus.local (620)] INFO : Finished instrumentation
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Starting the New Relic Agent.
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Environment: development
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Dispatcher: webrick
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Application: development
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Installing Net instrumentation
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 19:13:06 -0800 Dedalus.local (2203)] INFO : Finished instrumentation
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Starting the New Relic Agent.
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Environment: development
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Dispatcher: webrick
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Application: development
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Installing Net instrumentation
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 19:47:25 -0800 Dedalus.local (2814)] INFO : Finished instrumentation
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Starting the New Relic Agent.
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Environment: development
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Dispatcher: webrick
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Application: development
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Installing Net instrumentation
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 21:41:03 -0800 Dedalus.local (4326)] INFO : Finished instrumentation
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Starting the New Relic Agent.
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Environment: development
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Dispatcher: webrick
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Application: development
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Installing Net instrumentation
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 21:42:17 -0800 Dedalus.local (4353)] INFO : Finished instrumentation
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Starting the New Relic Agent.
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Environment: development
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Dispatcher: webrick
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Application: development
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Installing Net instrumentation
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 21:45:54 -0800 Dedalus.local (4562)] INFO : Finished instrumentation
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Starting the New Relic Agent.
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Environment: development
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Dispatcher: webrick
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Application: development
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Installing Net instrumentation
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 21:52:46 -0800 Dedalus.local (4666)] INFO : Finished instrumentation
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Starting the New Relic Agent.
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Environment: development
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Dispatcher: webrick
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Application: development
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Installing Net instrumentation
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 21:54:39 -0800 Dedalus.local (4697)] INFO : Finished instrumentation
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Starting the New Relic Agent.
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Environment: development
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Dispatcher: webrick
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Application: development
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Installing Net instrumentation
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 21:59:21 -0800 Dedalus.local (4776)] INFO : Finished instrumentation
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Starting the New Relic Agent.
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Environment: development
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Dispatcher: webrick
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Application: development
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Installing Net instrumentation
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 22:00:27 -0800 Dedalus.local (4800)] INFO : Finished instrumentation
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Starting the New Relic Agent.
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Environment: development
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Dispatcher: webrick
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Application: development
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Installing Net instrumentation
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 22:04:22 -0800 Dedalus.local (5022)] INFO : Finished instrumentation
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Starting the New Relic Agent.
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Environment: development
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Dispatcher: webrick
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Application: development
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Installing Net instrumentation
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 22:20:21 -0800 Dedalus.local (5410)] INFO : Finished instrumentation
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Starting the New Relic Agent.
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Environment: development
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Dispatcher: webrick
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Application: development
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Installing Net instrumentation
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 22:20:49 -0800 Dedalus.local (5428)] INFO : Finished instrumentation
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Starting the New Relic Agent.
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Environment: development
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Dispatcher: webrick
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Application: development
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Installing Net instrumentation
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 23:11:19 -0800 Dedalus.local (7355)] INFO : Finished instrumentation
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Starting the New Relic Agent.
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Environment: development
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Dispatcher: webrick
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Application: development
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Installing Net instrumentation
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 23:22:10 -0800 Dedalus.local (7694)] INFO : Finished instrumentation
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Starting the New Relic Agent.
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Environment: development
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Dispatcher: webrick
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Application: development
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Installing Net instrumentation
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 23:26:02 -0800 Dedalus.local (7779)] INFO : Finished instrumentation
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Starting the New Relic Agent.
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Environment: development
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Dispatcher: webrick
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Application: development
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Installing ActiveRecord instrumentation
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Installing Net instrumentation
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Installing Rails 3 Controller instrumentation
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Installing Rails3 Error instrumentation
+[01/28/13 23:28:49 -0800 Dedalus.local (7841)] INFO : Finished instrumentation
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Starting the New Relic Agent.
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Environment: development
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Dispatcher: webrick
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Application: development
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Installing ActiveRecord instrumentation
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Installing Net instrumentation
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Installing Rails 3 Controller instrumentation
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Installing Rails3 Error instrumentation
+[01/29/13 11:05:12 -0800 Dedalus.local (10093)] INFO : Finished instrumentation
+[01/29/13 12:46:45 -0800 Dedalus.local (11468)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/29/13 12:46:45 -0800 Dedalus.local (11468)] INFO : Starting the New Relic Agent.
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] INFO : Environment: development
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] INFO : Dispatcher: webrick
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] INFO : Application: development
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] INFO : Installing ActiveRecord instrumentation
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] INFO : Installing Net instrumentation
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] INFO : Installing Rails 3 Controller instrumentation
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] INFO : Installing Rails3 Error instrumentation
+[01/29/13 12:46:46 -0800 Dedalus.local (11468)] INFO : Finished instrumentation
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Starting the New Relic Agent.
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Environment: development
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Dispatcher: webrick
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Application: development
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Installing ActiveRecord instrumentation
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Installing Net instrumentation
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Installing Rails 3 Controller instrumentation
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Installing Rails3 Error instrumentation
+[01/29/13 13:53:45 -0800 Dedalus.local (12607)] INFO : Finished instrumentation
+[01/29/13 14:41:09 -0800 Dedalus.local (12607)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `toutf8' for "The Menâ\u0080\u0099s French Terry Merlot":String
+[01/29/13 14:41:09 -0800 Dedalus.local (12607)] WARN : The error reporting queue has reached 20. The error detail for this and subsequent errors will not be transmitted to New Relic until the queued errors have been sent: undefined method `toutf8' for "The Menâ\u0080\u0099s French Terry Merlot":String
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Starting the New Relic Agent.
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Environment: development
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Dispatcher: webrick
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Application: development
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Installing ActiveRecord instrumentation
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Installing Net instrumentation
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Installing Rails 3 Controller instrumentation
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Installing Rails3 Error instrumentation
+[01/29/13 14:48:46 -0800 Dedalus.local (13551)] INFO : Finished instrumentation
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Starting the New Relic Agent.
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Environment: development
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Dispatcher: webrick
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Application: development
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Installing ActiveRecord instrumentation
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Installing Net instrumentation
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Installing Rails 3 Controller instrumentation
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Installing Rails3 Error instrumentation
+[01/30/13 09:44:09 -0800 Dedalus.local (16101)] INFO : Finished instrumentation
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Starting the New Relic Agent.
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Environment: development
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Dispatcher: webrick
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Application: development
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Installing ActiveRecord instrumentation
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Installing Net instrumentation
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Installing Rails 3 Controller instrumentation
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Installing Rails3 Error instrumentation
+[01/30/13 11:56:53 -0800 Dedalus.local (19960)] INFO : Finished instrumentation
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Starting the New Relic Agent.
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Environment: development
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Dispatcher: webrick
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Application: development
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Installing ActiveRecord instrumentation
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Installing Net instrumentation
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Installing Rails 3 Controller instrumentation
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Installing Rails3 Error instrumentation
+[01/30/13 12:31:11 -0800 Dedalus.local (20626)] INFO : Finished instrumentation
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Starting the New Relic Agent.
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Environment: development
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Dispatcher: webrick
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Application: development
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Installing ActiveRecord instrumentation
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Installing Net instrumentation
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Installing Rails 3 Controller instrumentation
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Installing Rails3 Error instrumentation
+[01/30/13 21:26:29 -0800 Dedalus.local (32382)] INFO : Finished instrumentation
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] ERROR : Unable to read configuration file : can't convert nil into String
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Starting the New Relic Agent.
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Environment: development
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Dispatcher: webrick
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Application: development
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Installing ActiveRecord instrumentation
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Installing Net instrumentation
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Installing Rails 3 Controller instrumentation
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Installing Rails3 Error instrumentation
+[01/31/13 16:36:07 -0800 Dedalus.local (55778)] INFO : Finished instrumentation
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] ERROR : Unable to read configuration file : can't convert nil into String
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Starting the New Relic Agent.
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Environment: development
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Dispatcher: webrick
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Application: development
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Installing ActiveRecord instrumentation
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Installing Net instrumentation
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Installing Rails 3 Controller instrumentation
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Installing Rails3 Error instrumentation
+[02/01/13 13:30:42 -0800 Dedalus.local (3207)] INFO : Finished instrumentation
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] ERROR : Unable to read configuration file : can't convert nil into String
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Starting the New Relic Agent.
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Environment: development
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Dispatcher: webrick
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Application: development
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Installing ActiveRecord instrumentation
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Installing Net instrumentation
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Installing Rails 3 Controller instrumentation
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Installing Rails3 Error instrumentation
+[02/07/13 21:07:44 -0800 Dedalus.local (1511)] INFO : Finished instrumentation
+[02/07/13 21:36:53 -0800 Dedalus.local (4009)] ERROR : Unable to read configuration file : can't convert nil into String
+[02/07/13 21:36:53 -0800 Dedalus.local (4009)] INFO : Starting the New Relic Agent.
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] INFO : Environment: development
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] INFO : Dispatcher: webrick
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] INFO : Application: development
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] WARN : No license key found in newrelic.yml config. This often means your newrelic.yml is missing a section for the running environment 'development'
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] INFO : Installing ActiveRecord instrumentation
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] INFO : Installing Net instrumentation
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] INFO : Installing Rails 3 Controller instrumentation
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] INFO : Installing Rails3 Error instrumentation
+[02/07/13 21:36:54 -0800 Dedalus.local (4009)] INFO : Finished instrumentation

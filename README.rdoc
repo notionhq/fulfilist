@@ -1,0 +1,32 @@
+This is Fulfilist
+=================
+
+To get it going get postgres:
+
+   brew install postgres
+
+bundle that shit
+
+    bundle
+    
+create the database:
+
+    rake db:create
+
+
+migrate!!!!
+
+    rake db:migrate
+    
+
+Launch it:
+
+    rails s
+
+
+Make it pretty:
+
+    kevin --work_it!
+    
+    
+This is very much a work in progress. Probably some bugs, no tests, yadda yadda yadda... That is where you come in!

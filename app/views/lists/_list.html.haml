@@ -1,0 +1,9 @@
+=link_to_unless_current("<div class='list-name'>#{list.name}</div><div class='count'>#{list.items.count}</div>".html_safe, user_list_path(list.user, list), class: "list-link") do
+  .list{ id: "list_#{list.id}" }
+    .list-name=list.name
+    / .delete=link_to "X", list, method: :delete, data: {confirm: "Are you sure?"}
+    
+    .count=list.items.count
+    
+
+/ <div class= 'delete'>#{link_to "X", list, method: :delete, data: {confirm: "Are you sure?"}}</div>

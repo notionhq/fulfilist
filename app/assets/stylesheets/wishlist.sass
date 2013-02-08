@@ -1,0 +1,831 @@
+body
+  @include clearfix
+  font-family: 'Numans', sans-serif
+  color: #333
+  background: whitesmoke
+.mask
+  position: fixed
+  display: none
+  width: 100%
+  height: 12000px
+  background: rgba(225,225,225,0.7)
+  z-index: 2
+
+.button,
+button,
+input[type=submit]
+  @include linear-gradient(lighten($highlight, 3%), $highlight)
+  @include box-shadow(1px 1px 2px rgba(0,0,0,0.3))
+  @include box-sizing(border-box)
+  border-radius: 2px
+  display: block
+  width: 300px
+  height: 50px
+  line-height: 50px
+  font-size: 20px
+  text-align: center
+  color: #fff
+  text-decoration: none
+  border: none
+  cursor: pointer
+  text-shadow: 0px -1px 1px shade($highlight, 15%)
+  &:hover
+    @include linear-gradient($highlight, lighten($highlight, 3%))
+  &.small
+    height: 40px
+    line-height: 40px
+  &.cancel
+    @include box-shadow(1px 1px 2px rgba(0,0,0,0.4))
+    @include linear-gradient(lighten(#ccc, 10%), #ccc)
+    text-shadow: 0px -1px 1px shade(#ccc, 15%)
+    &:hover
+      @include linear-gradient(#ccc, lighten(#ccc, 5%))
+
+.list_container.index
+  background: none
+  border: none
+  @include box-shadow(none)
+  margin: none
+  z-index: 0
+  padding-top: 260px
+  margin: 0 80px
+  .user-list-title
+    text-align: center
+    font-size: 32px
+    text-shadow: 0px -1px rgba(255,255,255,0.2) 
+    margin-bottom: 20px
+    color: #666
+    position: fixed
+    @include box-sizing(border-box)
+    margin-left: -126px
+    background: url(paper_bg_3.jpg)
+    margin: 0px
+    width: 100%
+  #new_list
+    width: 50%
+    margin: 40px auto -14px
+    @include clearfix
+    input[type=text]
+      @include box-sizing(border-box)
+      @include box-shadow(0px 0px 2px rgba(0,0,0,0.1) inset)
+      float: left
+      border: 1px solid #ccc
+      height: 40px
+      line-height: 40px
+      padding: 10px
+      font:
+        size: 20px
+      width: 65%
+      display: block
+      &:focus
+        outline: none
+        background: lighten(#A0C3CC, 20%)
+    
+  .no_list
+    color: #777
+    #create-new-list
+      width: 150px
+      float: left
+      margin-left: 15px
+      line-height: 30px
+      height: 38px
+    img
+      width: 30%
+      display: block
+      margin: 80px auto
+      opacity: 0.5
+
+    p
+      text-align: center
+      font-size: 26px
+      margin-bottom: 40px
+      margin-top: 40px
+      a
+        color: $highlight
+        &:hover
+          opacity: 0.6
+    .user-list-title
+      text-align: center
+      font-size: 36px
+      margin-bottom: 20px
+      display: none
+    
+  .index_lists
+    margin-top: 40px
+    margin-bottom: 80px
+    background: #fff
+    @include clearfix
+    @include box-shadow(1px 1px 4px rgba(0,0,0,0.3))
+    position: relative
+    display: block
+    background: #fff
+    padding: 40px 20px 20px 20px
+    border: 1px solid #ccc
+    z-index: 1 
+    .index_list
+      @include clearfix
+      width: 100%
+      padding: 20px
+      display: block
+      @include box-sizing(border-box)
+      text-decoration: none
+      margin-bottom: 20px
+      border-bottom: 1px solid #e6e6e6
+      @include clearfix
+      &:hover
+        border-radius: 4px
+        @include box-shadow(0px 0px 8px rgba(0,0,0,0.3) inset)
+        @include linear-gradient(#fff, lighten(#e9e9e9, 7%))
+      .title_column
+        width: 70%
+        padding-right: 20px
+        @include box-sizing(border-box)
+        float: left
+        .title
+          color: $highlight
+          font-size: 24px
+          text-decoration: none
+          margin-bottom: 10px
+        .created-at
+          text-decoration: none
+          color: #ccc
+          font-size: 12px
+          margin-bottom: 10px
+      .count_column
+        width: 30%
+        @include box-sizing(border-box)
+        float: left
+        .item-count
+          text-decoration: none
+          color: #555
+          font-size: 12px
+          margin-bottom: 10px
+          &:after
+            content: ":"
+        .images
+          @include clearfix
+          img
+            float: left
+            max-width: 50px
+            max-height: 33px
+            margin-right: 20px
+            margin-bottom: 10px
+
+.user_dashboard
+  @include transition(all 0.5s ease)
+  background: url(paper_bg_2.jpg)
+  @include box-shadow(0px 1px 4px rgba(0,0,0,0.4))
+  position: fixed
+  top: 0px
+  z-index: 3
+  width: 300px
+  height: 100%
+
+  .inner_dash    
+    margin: 0 20px
+    @include clearfix
+    .close_dash
+      position: absolute
+      top: 15px
+      right: 10px
+      font-size: 16px
+      cursor: pointer
+      color: #333
+      &:hover
+        color: $highlight
+    .user_name
+      @include clearfix
+      margin-top: 20px
+      line-height: 23px
+      margin: 0px -20px
+      padding: 10px 20px
+      background: #fff
+      border-bottom: 1px solid #e6e6e6
+      img
+        display: block
+        height: 20px
+        float: left
+        margin-right: 5px
+    .logout
+      position: absolute
+      bottom: 20px
+      right: 20px
+      font-size: 16px
+      a
+        color: $highlight
+        font-size: 16px
+        text-decoration: none
+        &:hover
+          color: #ccc
+    .add_list
+      margin: 40px 0px
+      @include clearfix
+      form
+        width: 260px
+        margin: 0 auto
+        @include clearfix
+        input[type=text]
+          @include box-sizing(border-box)
+          @include box-shadow(0px 0px 2px rgba(0,0,0,0.1) inset)
+          float: left
+          border: 1px solid #ccc
+          height: 30px
+          line-height: 30px
+          padding: 10px
+          font:
+            size: 18px
+          width: 65%
+          display: block
+          &:focus
+            outline: none
+            background: lighten(#A0C3CC, 20%)
+        #create-new-list
+          float: left
+          width: 80px
+          height: 28px
+          line-height: 10px
+          margin-left: 10px
+          font-size: 14px
+            
+    #new_list_link
+      width: 260px
+      height: 36px
+      font-size: 16px
+      line-height: 36px
+    #create-new-list
+      height: 36px
+      font-size: 16px
+      line-height: 36px
+      width: 100px
+      
+    .list-title
+      text-align: center
+      width: 100%
+      margin-bottom: 10px
+    .lists
+      @include box-sizing(border-box)
+      @include clearfix
+      margin-bottom: 20px
+      background: #fff
+      border: 1px solid #e6e6e6
+      width: 100%
+      padding: 10px 0
+      
+      .list-link
+        color: $highlight
+        &:hover
+          @include linear-gradient($highlight, lighten($highlight, 3%))
+          // background: $highlight
+          .list-name, .count
+            color: #fff
+            text-decoration: none
+
+      .list-link, .list
+        @include clearfix
+        @include box-sizing(border-box)
+        float: left
+        display: block
+        // text-decoration: none
+        margin-bottom: 15px
+        width: 100%
+        padding: 5px 10px
+        .list-name
+          float: left
+          font-size: 14px
+          text-decoration: underline
+        .count
+          white-space: nowrap
+          font-size: 12px
+          margin-left: 5px
+          float: left
+          margin-top: 1px
+          &:before
+            content: "("
+          &:after
+            content: ")"
+
+            
+      .list
+        background: #e6e6e6
+        color: #666
+        width: 100%
+        .list-name
+          text-decoration: none
+
+
+.container
+  @include box-sizing(border-box)
+  background: whitesmoke
+  
+  .open_dash
+    position: fixed
+    top: 10px
+    right: 10px
+    width: 40px
+    height: 40px
+    overflow: hidden
+    z-index: 1
+    img
+      position: absolute
+      cursor: pointer
+      width: 40px
+      opacity: 0.6
+      &:hover
+        opacity: 0.9
+  .signin
+    @include box-shadow(1px 1px 4px rgba(0,0,0,0.5))
+    position: absolute
+    width: 400px
+    height: 60px
+    left: 50%
+    margin-left: -200px
+    top: 50%
+    display: block
+    text-align: center
+    @include linear-gradient(lighten(#3B5998, 10%), #3B5998)
+    border-radius: 2px
+    text-shadow: 0px -1px 1px shade(#3B5998, 25%)
+    text-decoration: none
+    color: #fff
+    font-size: 26px
+    line-height: 60px
+    &:hover
+      @include linear-gradient(#3B5998, lighten(#3B5998, 5%))
+  header
+    @include box-shadow(0px 0px 6px rgba(0,0,0,0.4))
+    position: fixed
+    width: 100%
+    height: 250px
+    z-index: 1
+    background: url(paper_bg_3.jpg)
+    padding-top: 20px
+    .logo
+      width: 172px
+      margin: 0px auto
+      a
+        font-size: 72px
+        text-decoration: none
+
+        font-family: 'Sacramento', cursive
+        color: #c6c6c6
+        text-shadow: -1px -1px rgba(0,0,0,0.2)
+        &:hover
+          color: lighten(#c6c6c6, 2%)
+
+  .header-text
+    z-index: 1
+    font-size: 32px
+    text-shadow: 0px -1px rgba(255,255,255,0.2) 
+    margin-bottom: 20px
+    color: #666
+    position: fixed
+    width: 100%
+    text-align: center
+    top: 200px
+  .inner_wrapper
+    margin: 0px 80px
+    padding-top: 180px
+    padding-bottom: 80px
+  .user_show_container
+    h1
+      text-align: center
+      font:
+        size: 40px
+        weight: 300px
+      margin: 20px 0 80px 0
+    
+.list-header
+  text-align: center
+  font:
+    size: 40px
+    weight: 300px
+  margin: 0px 0 30px 0
+.owner
+  text-align: center
+  margin-bottom: 100px
+  font-size: 18px
+  line-height: 20px
+  @include clearfix
+  width: auto
+  img
+    width: 40px
+  .name
+    margin-top: 10px
+    color: #888
+.list_container, .user-sign-up
+  @include clearfix
+  @include box-shadow(1px 1px 4px rgba(0,0,0,0.3))
+  position: relative
+  display: block
+  background: #fff
+  padding: 40px 20px 20px 20px
+  border: 1px solid #ccc
+  z-index: 1
+  .close
+    position: absolute
+    top: 20px
+    right: 20px
+    a
+      font-size: 30px
+      text-decoration: none
+      color: #333
+      &:hover
+        color: $highlight
+  .no_items
+    text-align: center
+    font-size: 26px
+    margin-bottom: 20px
+    img
+      width: 30%
+      display: block
+      margin: 60px auto
+      opacity: 0.5 
+  .remove-list
+    position: absolute
+    bottom: 20px
+    right: 20px
+    color: #999
+    &:hover
+      color: #333
+
+  .number_column
+    float: left
+    font-size: 30px
+    margin: 0px 10px
+  .info_column
+    float: left
+    a
+      display: block
+      color: #333
+      font-size: 30px
+      margin-right: 10px
+      text-decoration: none
+      &:hover
+        color: $highlight
+    .created
+      font-size: 12px
+      margin: 10px 0 20px
+    .images
+      display: block
+    img
+      margin-right: 20px
+      height: 40px
+      float: left
+      // border: 2px solidfff
+  .password-message
+    margin: 0px -20px 60px -20px
+    text-align: left
+    font-size: 22px
+    color: $delete
+    padding: 20px
+  form#new_user
+    label
+      float: left
+      width: 30%
+      text-align: right
+      @include box-sizing(border-box)
+      padding-right: 20px
+      font-size: 20px
+      line-height: 40px
+    input[type=text], input[type=password], input[type=email]
+      float: left
+      width: 40%
+      @include box-sizing(border-box)
+      @include box-shadow(0px 0px 3px rgba(0,0,0,0.2) inset)
+      
+      border: 1px solid #ccc
+      height: 40px
+      line-height: 40px
+      padding: 10px
+      font:
+        size: 20px
+      &:focus
+        outline: none
+        background: lighten(#A0C3CC, 20%)
+    input[type=submit]
+
+    .field
+      @include clearfix
+      margin-bottom: 20px
+    .field_with_errors
+      // float: left
+      background: pink
+    #error_explanation
+      margin-bottom: 60px
+      font-size: 16px
+      h2
+        display: none
+      ul
+        list-style: none
+        color: $delete
+        li
+          text-align: center
+
+.user-sign-up
+  padding: 40px
+  margin: 0px 80px
+  .button.sign-up
+    margin: 0 auto
+    line-height: 34px
+.new_item_container
+  display: none
+  position: relative
+  padding: 20px
+  width: 800px
+  &.pop_out
+    @include box-sizing(border-box)
+    @include box-shadow(1px 1px 4px rgba(0,0,0,0.3))
+    border: 1px solid #ccc
+    z-index: 99999
+    position: fixed
+    top: 120px
+    background: #fff
+    left: 50%
+    margin-left: -400px
+    display: block
+
+.add_item
+  @include clearfix
+  width: 100%
+#new_item_link
+  margin: 20px auto 60px
+  
+.show-hide
+  width: 640px
+  margin: -200px auto 60px
+  padding: 40px
+  opacity: 0.8
+  display: none
+  text-align: center
+  font-size: 26px
+  .loader
+    width: 128px
+    height: 15px
+    margin: 20px auto 0px
+    background: url('ajax-loader.gif')
+  
+#new_item
+  margin: 20px auto 20px
+  .url_bar
+    margin-bottom: 40px
+    @include clearfix
+    input[type=text]
+      @include box-sizing(border-box)
+      @include box-shadow(0px 0px 3px rgba(0,0,0,0.2) inset)
+      border: 1px solid #ccc
+      height: 40px
+      line-height: 40px
+      padding: 10px
+      font:
+        size: 20px
+      width: 100%
+      display: block
+      &:focus
+        outline: none
+        background: lighten(#A0C3CC, 20%)
+
+  .actions
+    @include clearfix
+    input[type=submit], .dismiss-url
+      float: right
+      width: 200px
+      margin-left: 10px
+    input[type=submit]
+      line-height: 34px
+    .dismiss-url
+      width: 120px
+    
+      
+.form_instructions
+  text-align: left
+  font-size: 20px
+  padding: 20px
+  background: #fff
+  color: #333
+  margin: -20px
+  margin-bottom: 40px
+  
+.edit_item
+  @include clearfix
+  .image_column
+    width: 180px
+    margin-right: 20px
+    float: left
+    text-align: center
+    color: #888
+    line-height: 16px
+    font-size: 14px
+    img
+      max-width: 160px
+      max-height: 120px
+      margin: 0 auto 10px
+      display: block
+    .file_field_wrapper
+      opacity: 0
+    #replace-image
+      display: block
+      color: $highlight
+  .info_column
+    p
+      margin-bottom: 10px
+      &.price
+        input[type=text]
+          width: 150px
+      &.submit
+        @include clearfix
+        input[type=submit], .cancel-item
+          float: right
+          width: 200px
+          margin-left: 10px
+        input[type=submit]
+          line-height: 34px
+        .cancel-item
+          width: 120px
+
+    
+    textarea
+      background: lighten(#A0C3CC, 20%)
+      width: 535px
+      height: 60px
+      border: 1px solid lighten(#A0C3CC, 20%)
+      padding: 5px
+      resize: none
+      font:
+        size: 20px
+      &:focus
+        outline: none
+        border: 1px solid #ccc
+        background: #fff
+       
+    input[type=text]
+      width: 485px
+      border: 1px solid lighten(#A0C3CC, 20%)
+      background: lighten(#A0C3CC, 20%)
+      padding: 5px
+      font:
+        size: 20px
+      white-space: nowrap
+      &:focus
+        outline: none
+        border: 1px solid #ccc
+        background: #fff
+        
+h2.unavail
+  text-align: center
+  font-size: 20px
+  padding-bottom: 20px
+  margin-bottom: 20px
+  color: darken(#ccc, 35%)
+  
+h2.unavail
+  font-size: 16px
+.items, .unavailable_items
+  margin-bottom: 100px
+.item
+  @include clearfix
+  padding-bottom: 40px
+  margin-bottom: 40px
+  border-bottom: 1px dashed #ccc
+  position: relative
+  .actions
+    width: 100px
+    float: left
+    margin-right: 20px
+    border-right: 1px solid #ccc
+    .claimed-by
+      display: block
+      font-size: 12px
+      margin-top: 35px
+      text-align: center
+      width: 100px
+    .sign_up
+      .fb-sign-in
+        text-indent: -999999px
+        @include box-shadow(0px 0px 3px rgba(0,0,0,0.2) inset)
+        display: block
+        margin: 35px auto
+        border-radius: 3px
+        background: #fff
+        border: 1px solid #ccc
+        height: 30px
+        width: 30px
+        position: relative
+        cursor: pointer
+      .message
+        display: none
+        text-align: center
+        position: absolute
+        top: 0px
+        width: 100px
+        font-size: 12px
+      &:hover
+        .message
+          display: block
+    .claim_button, .unclaim_button
+      .check-mark
+        background: url('check-mark.png') no-repeat
+        display: none
+        width: 40px
+        height: 40px
+        position: absolute
+        left: 39px
+        top: 20px
+        z-index: 1
+        cursor: pointer
+      
+      input[type=submit]
+        
+        @include box-shadow(0px 0px 3px rgba(0,0,0,0.2) inset)
+        display: block
+        margin: 35px auto
+        border-radius: 3px
+        background: #fff
+        border: 1px solid #ccc
+        height: 30px
+        width: 30px
+        position: relative
+        cursor: pointer
+      &:hover
+        .message
+          display: block
+        .check-mark
+          display: block
+            
+      .message
+        display: none
+        text-align: center
+        position: absolute
+        top: 0px
+        width: 100px
+        font-size: 12px
+        
+    .unclaim_button
+      .check-mark
+        display: block
+      input[type=submit]
+        background: #fff
+      &:hover
+        .check-mark
+          display: none
+          
+  .image
+    width: 140px
+    margin-right: 20px
+    float: left
+    img
+      // @include box-shadow(1px 1px 4px rgba(0,0,0,0.2))
+      max-width: 120px
+      max-height: 100px
+      margin: 0 auto
+      // border: 3px solid #fff
+      display: block
+  .remove-item
+    display: none
+    position: absolute
+    top: 5px
+    right: 0px
+    color: #ccc
+    text-decoration: none
+    font:
+      size: 12px
+      weight: lighter
+    &:hover
+      color: #333
+  .info
+    .title
+      padding-right: 80px
+      line-height: 24px
+      font:
+        size: 18px
+      a
+        color: #333
+        text-decoration: none
+        &:hover
+          color: $highlight
+    .price
+      font-size: 22px
+      margin-top: 15px
+      color: #ccc
+  &:hover
+    .remove-item
+      display: block
+  &:last-of-type
+    border-bottom: none
+  &.claimed
+    opacity: 0.3
+    
+.product_image_option
+  width: 100px
+  margin: 10px
+  &.selected
+
+@media only screen and (max-width: 759px)
+  .inner_wrapper
+    width: 100%
+    margin: 0 !important
+    
+  .new_item_container.pop_out
+    width: 100%
+    top: 100px
+    margin-left: -50%
+    

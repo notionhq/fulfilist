@@ -1,0 +1,3 @@
+=form_for [current_user, @list], remote: :true do |f|
+  =f.text_field :name, placeholder: "name", id: "new-list-field"
+  =f.submit "create", id: "create-new-list", class: "button small"

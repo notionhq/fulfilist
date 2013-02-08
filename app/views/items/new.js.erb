@@ -1,0 +1,5 @@
+$(".new_item_container").addClass("pop_out");
+// $(".new_item_container").html("");
+$(".new_item_container").prepend('<%= j render("items/ajax_new_form") %>');
+
+$(".mask").fadeIn();

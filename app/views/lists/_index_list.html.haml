@@ -1,0 +1,12 @@
+%a.index_list{ href: user_list_path(list.user, list)}
+  .title_column
+    .title=list.name
+    .created-at
+      =list.created_at.strftime("%b. %e, %Y")
+  -if list.items.any?
+    .count_column
+      .item-count
+        =pluralize(list.items.count, "item")
+      .images
+        -for image in list.images
+          =image_tag image

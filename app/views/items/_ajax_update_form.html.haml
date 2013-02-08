@@ -1,0 +1,45 @@
+=form_for [@list, @item], remote: :true do |f|
+  .form_instructions
+    %strong
+      Step 2: 
+    Make sure the details are correct
+  -array = @item.fetch_info(@item.url)
+  -image = array[4]
+  .image_column
+    -if image.nil?
+      =image_tag "default_image.png", class: "product_image_option", id: "upload"
+      =f.hidden_field :img_url, value: "default_image.png", class: "final_product_image"
+      couldn't find an image, would you like to
+      =link_to "upload your own?", "#", id: "replace-image"
+    -else
+      =image_tag image, class: "product_image_option", id: "upload"
+      =f.hidden_field :img_url, value: image, class: "final_product_image"
+      will this image work, or would you like to
+      =link_to "upload your own?", "#", id: "replace-image"
+    .file_field_wrapper
+      =f.file_field :product_image, onchange: "readURL(this);"
+  .info_column
+    =f.hidden_field :store, value: array[3]
+    %p
+      =f.label :name, "Item:"
+      =f.text_field :name, value: array[0]
+    %p.price
+      =f.label :price, "Price: $"
+      =f.text_field :price, value: array[1]
+    %p.comment
+      =f.text_area :comment, placeholder: "Additional Information (optional)"
+    %p.submit
+      =link_to "Cancel", [@item.list, @item], method: :delete, remote: true, class: "cancel-item button cancel small"
+      =f.submit "Looks Good!", id: "add-to-wishlit-submit", class: "button small"
+:javascript
+  function readURL(input) {
+      if (input.files && input.files[0]) {
+          var reader = new FileReader();
+
+          reader.onload = function (e) {
+              $('#upload').attr('src', e.target.result);
+          }
+
+          reader.readAsDataURL(input.files[0]);
+      }
+  }

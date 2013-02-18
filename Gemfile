@@ -15,9 +15,8 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 end
 
-gem 'pg'
-gem
-gem 'pg_search'
+gem 'mysql2'
+
 gem 'jquery-rails'
 gem 'haml-rails'
 gem 'cancan'
